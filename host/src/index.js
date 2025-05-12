@@ -17,9 +17,16 @@ init({
 
 const div = document.createElement('div');
 
-loadRemote('mfe_1').then((loadFn) => {
-  console.log(loadFn)
-  // document.documentElement
+div.innerHTML = `
+  Microfrontend 1:
+  <div id="microfrontend-1"></div>
+  Microfrontend 2:
+  <div id="microfrontend-2"></div>
+`
+document.body.appendChild(div);
+
+loadRemote('mfe_1').then(({default: loadFn}) => {
+  loadFn(document.getElementById('microfrontend-1'))
 
 });
 
