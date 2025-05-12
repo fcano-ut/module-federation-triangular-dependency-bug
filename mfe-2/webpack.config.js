@@ -41,6 +41,9 @@ module.exports = {
       writeToDisk: true,
     },
     hot: false,
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+    },
     client: {
       overlay: {
         errors: false,
