@@ -4,7 +4,7 @@ This reproduction example explains how it's not possible to have a dependency tr
 
 ![](./dependencytree.png)
 
-This seems to fail because "mfe_2" cannot be initialized both from the host app and from "mfe_1", and loaded from both places, but treating it as a single micro-frontend.
+Issue: <https://github.com/module-federation/core/issues/3763>
 
 ## Run locally
 
