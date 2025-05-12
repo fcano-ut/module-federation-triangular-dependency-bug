@@ -1,0 +1,21 @@
+{
+  "name": "host",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --config ./webpack.config.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
+    "babel-loader": "latest",
+    "concurrently": "^8.2.1",
+    "html-webpack-plugin": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest",
+    "@module-federation/enhanced": "latest"
+  }
+}

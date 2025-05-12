@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmfe_1=self.webpackChunkmfe_1||[]).push([[980],{836:(e,n,t)=>{function c(e){const n=document.createElement("div");n.innerText="Microfrontend 2",e.appendChild(n)}t.r(n),t.d(n,{default:()=>c})}}]);

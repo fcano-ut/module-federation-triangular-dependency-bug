@@ -1,0 +1,4 @@
+packages:
+  - 'host'
+  - 'mfe-1'
+  - 'mfe-2'

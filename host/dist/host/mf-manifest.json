@@ -1,0 +1,30 @@
+{
+  "id": "host_react",
+  "name": "host_react",
+  "metaData": {
+    "name": "host_react",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "local",
+      "buildName": "host"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "host_react",
+    "pluginVersion": "0.13.1",
+    "prefetchInterface": false,
+    "publicPath": "http://localhost:1000/"
+  },
+  "shared": [],
+  "remotes": [],
+  "exposes": []
+}

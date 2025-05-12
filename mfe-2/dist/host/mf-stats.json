@@ -1,0 +1,50 @@
+{
+  "id": "mfe_1",
+  "name": "mfe_1",
+  "metaData": {
+    "name": "mfe_1",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "local",
+      "buildName": "mfe-1"
+    },
+    "remoteEntry": {
+      "name": "mfe_1.b607dad4263639cbdb26.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "mfe_1",
+    "pluginVersion": "0.13.1",
+    "prefetchInterface": false,
+    "publicPath": "http://localhost:1002/"
+  },
+  "shared": [],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": ".",
+      "id": "mfe_1:.",
+      "name": ".",
+      "requires": [],
+      "file": "src/index.microfrontend.js",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_default_export.ab53ba6e960d820fe530.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}
