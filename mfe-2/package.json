@@ -1,5 +1,5 @@
 {
-  "name": "mfe-1",
+  "name": "mfe-2",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --config ./webpack.config.js"

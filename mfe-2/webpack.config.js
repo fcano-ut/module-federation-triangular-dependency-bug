@@ -60,7 +60,7 @@ module.exports = {
 
   plugins: [
     new ModuleFederationPlugin({
-      name: 'mfe_1',
+      name: 'mfe_2',
       exposes: {
         '.': './src/index.microfrontend.js',
       },

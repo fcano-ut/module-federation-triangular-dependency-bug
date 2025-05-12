@@ -9,7 +9,7 @@
       "buildName": "mfe-1"
     },
     "remoteEntry": {
-      "name": "mfe_1.d7dd72f0528e7b6c4dba.js",
+      "name": "mfe_1.ae41ed05f5fd1536eddc.js",
       "path": "",
       "type": "global"
     },
@@ -33,7 +33,7 @@
       "assets": {
         "js": {
           "sync": [
-            "__federation_expose_default_export.e94b604a918bdf0c0612.js"
+            "__federation_expose_default_export.4298b6431a4d04698bc8.js"
           ],
           "async": []
         },

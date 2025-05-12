@@ -27,6 +27,8 @@ document.body.appendChild(div);
 
 loadRemote('mfe_1').then(({default: loadFn}) => {
   loadFn(document.getElementById('microfrontend-1'))
-
 });
 
+loadRemote('mfe_2').then(({default: loadFn}) => {
+  loadFn(document.getElementById('microfrontend-2'))
+});
